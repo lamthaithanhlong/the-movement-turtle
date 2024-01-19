@@ -1,0 +1,41 @@
+{
+  "editor.autoIndent": "keep",
+  "editor.tabSize": 4,
+  "editor.dragAndDrop": true,
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "[json]": {
+    "editor.tabSize": 2
+  },
+  "[typescript]": {
+    "editor.tabSize": 4
+  },
+  "[jsonc]": {
+    "editor.tabSize": 2
+  },
+  "files.associations": {
+    "CMakeLists.txt": "makefile",
+    "*.xacro": "xml"
+  },
+  "files.exclude": {
+    "**/.**": true,
+    "**/**.pyc": true,
+    "**/home/user/catkin_ws/src/CMakeLists.txt": true,
+    "**/compile_flags.txt": true
+  },
+  "files.eol": "\n",
+  "workbench.iconTheme": "theia-file-icons",
+  "workbench.editor.highlightModifiedTabs": true,
+  "search.lineNumbers": true,
+  "workbench.colorTheme": "dark",
+  "workbench.silentNotifications": true,
+  "extensions.ignoreRecommendations": true,
+  "files.autoSave": "afterDelay",
+  "explorer.autoReveal": true,
+  "clangd.arguments": [
+    "--background-index"
+  ],
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportMissingImports": "none"
+  }
+}
